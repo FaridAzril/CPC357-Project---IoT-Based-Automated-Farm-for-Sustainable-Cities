@@ -51,6 +51,33 @@ The following components were used to build the prototype:
 * **Libraries:** `Paho MQTT` (WebSockets), `Chart.js` (Data Visualization).
 
 
+## Installation & Setup
+
+### Step 1: Broker Configuration (GCP VM)
+1.  Install Mosquitto on your Linux VM.
+2.  Edit `mosquitto.conf` to enable WebSockets:
+    ```text
+    listener 1883
+    allow_anonymous true
+    
+    listener 9001
+    protocol websockets
+    allow_anonymous true
+    ```
+3.  Open Firewall ports `1883` and `9001` in your Cloud Console.
+
+### Step 2: Microcontroller Setup
+1.  Open the `SmartFarm_ESP32.ino` file in Arduino IDE.
+2.  Install the required libraries via Library Manager.
+3.  Update the **Wi-Fi Credentials** (`ssid`, `pass`) and **MQTT Server IP**.
+4.  Upload the code to the ESP32.
+
+### Step 3: Dashboard Setup
+1.  Open `dashboard.html`.
+2.  Ensure the `VM_IP` variable matches your Google Cloud External IP.
+3.  Open the file in any modern web browser.
+
+
 
 ##  Dashboard Scenarios
 The web dashboard provides real-time visualization and control. (See report Appendix for full images).
