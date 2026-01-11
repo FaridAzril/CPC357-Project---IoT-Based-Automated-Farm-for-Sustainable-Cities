@@ -5,9 +5,9 @@
 ---
 
 ##  Project Description
-This project addresses the challenges of urban farming by developing an **IoT-Based Automated Vertical Farm**. [cite_start]The system automates essential maintenance tasks—such as climate control and rain protection—using real-time sensor data, making agriculture accessible and sustainable for city dwellers with limited space[cite: 21, 22].
+This project addresses the challenges of urban farming by developing an **IoT-Based Automated Vertical Farm**. The system automates essential maintenance tasks—such as climate control and rain protection—using real-time sensor data, making agriculture accessible and sustainable for city dwellers with limited space[cite: 21, 22].
 
-The system utilizes an **ESP32 microcontroller** to monitor environmental conditions (Temperature, Humidity, Soil Moisture, and Rain). [cite_start]It communicates via **MQTT** over Wi-Fi to a Google Cloud VM, allowing users to monitor and control the farm through a custom **Web Dashboard**[cite: 56, 72].
+The system utilizes an **ESP32 microcontroller** to monitor environmental conditions (Temperature, Humidity, Soil Moisture, and Rain). It communicates via **MQTT** over Wi-Fi to a Google Cloud VM, allowing users to monitor and control the farm through a custom **Web Dashboard**.
 
 ### Key Features
 * [cite_start]**Real-Time Monitoring:** Live tracking of temperature, humidity, soil moisture, and weather status[cite: 33].
