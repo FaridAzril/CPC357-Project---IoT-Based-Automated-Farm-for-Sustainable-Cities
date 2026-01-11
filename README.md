@@ -27,7 +27,7 @@ The following components were used to build the prototype:
 | Component | Model | Purpose |
 | :--- | :--- | :--- |
 | **Microcontroller** | Cytron Maker Feather AIoT S3 (ESP32) | Main processing unit & Wi-Fi connectivity. |
-| **Temp Sensor** | DHT22 | Measures ambient temperature/humidity ($\pm0.5^\circ$C accuracy). |
+| **Temp Sensor** | DHT22 | Measures ambient temperature/humidity. |
 | **Soil Sensor** | Capacitive Soil Moisture Sensor | Measures soil water content (Analog/Digital). |
 | **Weather Sensor** | Rain Sensor Module | Detects precipitation to trigger roof closure. |
 | **Actuator 1** | Micro Servo (SG90) | Controls the automated roof mechanism (0-180°). |
